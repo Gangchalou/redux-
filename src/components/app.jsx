@@ -34,7 +34,6 @@ export default class App extends Component {
 
     render() {
     const count = this.props.store.getState() //获取状态
-        console.log(count);
     return (
       <div>
         <p>click {count} times</p>
